@@ -1,1 +1,6 @@
-[build]\n  publish = "."\n  functions = "netlify/functions"\n\n[functions]\n  node_bundler = "esbuild"\n
+[build]
+  publish = "."
+  functions = "netlify/functions"
+
+[functions]
+  node_bundler = "esbuild"
